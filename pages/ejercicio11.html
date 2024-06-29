@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio11</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Verificar si un número es primo</h2>
+    </header>
+    <div class="ejercicio11">
+        <form action="../index.html">
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n" type="number" placeholder="numero">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="numeroPrimo()">Iniciar</button> 
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa un número en el campo de entrada con el ID n.
+                El código verifica si un número es divisible por cualquier número menor que él mismo (excluyendo 1).
+                ser dividido por cualquiera de estos números, es el primo.
+                El resultado se muestra en el elemento HTML con el id resultado.El resultado se muestra en un elemento HTML con el id resultado.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio11.js"></script>
+</body>
+</html>

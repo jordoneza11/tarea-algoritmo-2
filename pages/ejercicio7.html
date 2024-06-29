@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio7</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Determinar el mayor de dos números</h2>
+    </header>
+    <div class="ejercicio7">
+        <form action="../index.html">
+            <div>
+                <label for="numero">Ingrese un numero:</label>
+                <input id="n1" type="number" placeholder="numero 1">
+            </div>
+            <div>
+                <label for="numero">Ingrese otro numero:</label>
+                <input id="n2" type="number" placeholder="numero 2">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="mayorNumeros()">Aceptar</button> 
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa dos números con los ids n1 y n2 en los campos de entrada.
+                En el elemento HTML, el código convierte estos valores en enteros, los compara y muestra un mensaje con el id resultado que indica cuál es el número más alto o si son iguales.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio7.js"></script>
+</body>
+</html>

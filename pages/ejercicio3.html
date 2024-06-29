@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Determinar si un número es par o impar</h2>
+    </header>
+    <div class="ejercicio3">
+        <form action="../index.html">
+            <div>
+              <label for="numero">Ingrese un numero:</label>
+              <input id="n" type="number" placeholder="numero">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="parImpar()">Aceptar</button> 
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa un número con el id n en un campo de entrada. 
+                El valor ingresado se convierte en un número entero vía el código. 
+                A continuación, verifique si el número es igual o no. 
+                Por último, muestra el resultado en un elemento HTML con el ID resultante.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio3.js"></script>
+</body>
+</html>

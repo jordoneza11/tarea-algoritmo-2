@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio26</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Contar caracteres específicos</h2>
+    </header>
+    <div class="ejercicio26">
+        <form action="../index.html">
+            <div>
+                <label for="cadena">Ingrese una cadena:</label>
+                <input id="cadena" type="text" placeholder="Cadena de texto">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="contarCaracteres()">Iniciar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div> 
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa una cadena de texto en el campo de entrada utilizando el id cadena.
+                El código cuenta cuántas veces aparece el carácter "o" en esa cadena .
+                mostrado en el elemento de resultado .</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio26.js"></script>
+</body>
+</html>

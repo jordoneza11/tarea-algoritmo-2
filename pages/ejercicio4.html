@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Determinar si una persona es mayor de edad</h2>
+    </header>
+    <div class="ejercicio4">
+        <form action="../index.html">
+            <div>
+              <label for="numero">Ingrese su edad:</label>
+              <input id="edad" type="number" placeholder="edad">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="edadd()">Aceptar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <div id="explicacion" >
+            <h2>Campo de entrada , el usuario ingresa su edad mediante ID.
+                El código toma este valor y determina si es mayor o igual a 18.
+                El resultado de la verificación muestra un mensaje en el elemento HTML con el ID resultante indicando si el usuario es mayor o menor.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio4.js"></script> 
+</body>
+</html>

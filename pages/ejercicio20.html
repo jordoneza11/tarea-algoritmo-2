@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio20</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+    <h2>Los pares de un arreglo recorridos desde el último elemento al primero</h2>
+    </header>
+    <div class="ejercicio20">
+        <form action="../index.html">
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n" type="number" placeholder="numero">
+            </div>
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n2" type="number" placeholder="numero">
+            </div>
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n3" type="number" placeholder="numero">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="pares()">Iniciar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa tres números en los campos de entrada con los ID n, n2 y n3.
+                El código identifica y muestra los números que son similares entre estos tres en el elemento de resultado.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio20.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio6</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Determinar si un año es bisiesto</h2>
+    </header>
+    <div class="ejercicio6">
+        <form action="../index.html">
+            <div>
+                <label for="año">Ingrese un año:</label>
+                <input id="año" type="number" placeholder="año">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="añoBisiesto()">Aceptar</button> 
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <div id="explicacion" >
+            <h2>En un campo de entrada, el usuario ingresa con el id año.
+                El código utiliza las reglas estándar para determinar los años bisiestos y verificar si el año es bisiesto.
+                Manifiesta un mensaje en el elemento HTML con el id resultado indicando si el año es bisiesto o no, según el resultado de la verificación.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio6.js"></script>
+</body>
+</html>

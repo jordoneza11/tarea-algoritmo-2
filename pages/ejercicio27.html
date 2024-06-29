@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio27</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Eliminar caracteres específicos</h2>
+    </header>
+    <div class="ejercicio27">
+        <form action="../index.html">
+            <div>
+                <label for="cadena">Ingrese una cadena:</label>
+                <input id="cadena" type="text" placeholder="Cadena de texto">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="eliminarCaracter()">Iniciar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div> 
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa una cadena de texto en el campo de entrada con la cadena id cadena.
+                El código elimina todas las apariciones de la letra "o" en esa cadena.
+                se muestra en el elemento de resultado.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio27.js"></script>
+</body>
+</html>

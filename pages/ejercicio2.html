@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Contar números pares hasta N usando while</h2>
+    </header>
+    <div class="ejercicio2">
+        <form action="../index.html">
+            <div>
+              <label for="numero">Ingrese un numero:</label> 
+              <input id="n" type="number" placeholder="ingrese su numero">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="contarNumeros()">Aceptar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <div id="explicacion" >
+            <h2>El usuario introduce un número en un campo de entrada identificado con el id "n".
+                El programa calcula cuántos números pares existen desde 0 hasta el número ingresado.
+                El resultado de este cálculo se muestra en un elemento HTML con el id "resultado".</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio2.js"></script>
+</body>
+</html>

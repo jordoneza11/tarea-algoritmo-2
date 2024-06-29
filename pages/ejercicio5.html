@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Determinar si un número es positivo, negativo o cero</h2>
+    </header>
+    <div class="ejercicio5">
+        <form action="../index.html">
+            <div>
+                <label for="numero">Ingrese un numero:</label>
+                <input id="n" type="number" placeholder="numero">
+              </div>
+            <div>
+                <button type="button" class="boton" onclick="determinarNumero()">Aceptar</button> 
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa un número con el id n en un campo de entrada.
+                El código toma este valor y determina si es igual a cero , positivo o negativo.
+                Manifiesta un mensaje en el elemento HTML con el id resultado que indica la naturaleza del número, según el resultado de la verificación.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio5.js"></script>
+</body>
+</html>

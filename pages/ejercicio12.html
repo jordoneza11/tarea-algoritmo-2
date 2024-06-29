@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio12</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Invertir un número dividiendo para diez</h2>
+    </header>
+    <div class="ejercicio12">
+        <form action="../index.html">
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n" type="number" placeholder="numero">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="invertirNumero()">Iniciar</button> 
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa un número en un campo de entrada con el ID.
+                El código invierte el número utilizando un bucle while para extraer y concatenar los dígitos del número original.
+                se muestra en el elemento HTML con el ID resultante.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio12.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio28</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Convertir mayúsculas a minúsculas y viceversa</h2>
+    </header>
+    <div class="ejercicio28">
+        <form action="../index.html">
+            <div>
+                <label for="cadena">Ingrese una cadena:</label>
+                <input id="cadena" type="text" placeholder="Cadena de texto">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="convertir()">Iniciar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div> 
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa una cadena de texto en el campo de entrada utilizando el id cadena.
+                El código convierte cada letra del alfabeto a su contraparte en mayúscula o minúscula y conserva los caracteres no alfanuméricos sin cambios.
+                mostrado en el elemento de resultado.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio28.js"></script>
+</body>
+</html>

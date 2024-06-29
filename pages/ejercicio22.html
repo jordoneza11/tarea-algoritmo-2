@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio22</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Contar las vocales en una cadena</h2>
+    </header>
+    <div class="ejercicio22">
+        <form action="../index.html">
+            <div>
+                <label for="cadena">Ingrese una cadena:</label>
+                <input id="cadena" type="text" placeholder="Cadena de texto">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="contarVocales()">Iniciar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa una cadena de texto en el campo de entrada con id cadena.
+                El código verifica cada caracter de la cadena para determinar si es una vocal (tanto en minúsculas como en mayúsculas).
+                Se cuenta y se muestra el número total de vocales encontradas en la cadena dentro del elemento resultado.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio22.js"></script>
+</body>
+</html>

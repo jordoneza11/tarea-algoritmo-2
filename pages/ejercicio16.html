@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio16</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Presentar los números múltiplos de 5 de un arreglo</h2>
+    </header>
+    <div class="ejercicio16">
+        <form action="../index.html">
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n" type="text" placeholder="numero">
+            </div>
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n2" type="text" placeholder="numero">
+            </div>
+            <div>
+                <label for="numeros">Ingrese un numero:</label>
+                <input id="n3" type="text" placeholder="numero">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="multiplosNumero()">Iniciar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El El usuario introduce tres números en los campos de entrada con elcampos Identificacionescon los ID n, n2 y n3.n, n2 y n3.
+                El código verifica cada número para determinar si es múltiplo de 5.
+                se muestran separados por comas en la salida HTML.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio16.js"></script>
+</body>
+</html>

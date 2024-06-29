@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio19</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>Presentar los nombres que no sean "Juan" de un arreglo</h2>
+    </header>
+    <div class="ejercicio19">
+        <form action="../index.html">
+            <div>
+                <label for="numeros">Ingrese un nombre:</label>
+                <input id="n" type="text" placeholder="nombre">
+            </div>
+            <div>
+                <label for="numeros">Ingrese un nombre:</label>
+                <input id="n2" type="text" placeholder="nombre">
+            </div>
+            <div>
+                <label for="numeros">Ingrese un nombre:</label>
+                <input id="n3" type="text" placeholder="nombre">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="nombres()">Iniciar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+        <div id="explicacion" >
+            <h2>El usuario ingresa tres nombres en los campos de entrada con los identificadores n, n2 y n3.
+                El El código verifica cada nombre para ver si coincide exactamente con "Juan".
+                El elemento muestra los nombres que no comienzan con "Juan", separados por comas.</h2>
+        </div>
+    </div>
+    <script src="../js/ejercicio19.js"></script>
+</body>
+</html>
